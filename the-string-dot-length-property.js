@@ -25,6 +25,10 @@ let lengthTwo;   // Length of stringTwo
 let lengthThree; // Length of stringThree
 
 // Your code here
+lengthOne = stringOne.length;
+lengthTwo = stringTwo.length;
+lengthThree = stringThree.length;
 
-
-
+console.log(`The length of ${stringOne} is: ${lengthOne}`); // Should output: The length of Coding Bootcamp is: 15
+console.log(`The length of ${stringTwo} is: ${lengthTwo}`); // Should output: The length of JavaScript is: 10
+console.log(`The length of an empty string is: ${lengthThree}`); // Should output: The length of an empty string is: 0
